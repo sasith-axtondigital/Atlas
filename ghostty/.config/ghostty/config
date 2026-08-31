@@ -1,0 +1,7 @@
+theme = Argonaut
+
+gtk-titlebar = false
+
+background-opacity = 0.95
+
+font-family =   Courier New Bold
