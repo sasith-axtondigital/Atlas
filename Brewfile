@@ -1,112 +1,90 @@
-tap "anomalyco/tap"
-brew "bind"
-brew "biome"
-brew "bmon"
-brew "cmake"
-brew "curl"
-brew "fastfetch"
-brew "fd"
-brew "ffmpeg"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Fast and simple Node.js version manager
 brew "fnm"
-brew "forgejo"
+# Command-line fuzzy finder written in Go
 brew "fzf"
-brew "sqlite"
-brew "node"
-brew "gemini-cli"
+# GitHub command-line tool
 brew "gh"
-brew "ghostscript"
-brew "git"
-brew "git-gui"
-brew "go"
-brew "httpd"
-brew "hydra"
-brew "iftop"
-brew "jenkins-lts"
-brew "jq"
-brew "openjdk"
-brew "kotlin"
-brew "llvm"
-brew "mas"
-brew "mosh"
-brew "mysql"
-brew "nasm"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-brew "netcat"
-brew "nikto"
-brew "nload"
-brew "nmap"
-brew "odin"
-brew "pandoc"
-brew "pass"
-brew "php"
-brew "pinentry-mac"
-brew "pkgconf"
+# Command-line interface for SQLite
+brew "sqlite"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# Development kit for the Java programming language
+brew "openjdk"
+# Fast, disk space efficient package manager
 brew "pnpm"
-brew "postgresql@18"
+# Object-relational database system
+brew "postgresql@18", link: true
+# Python version management
 brew "pyenv"
-brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
-brew "sentencepiece"
-brew "sing-box"
+# Cross-shell prompt for astronauts
 brew "starship"
-brew "stow"
-brew "tcpdump"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
 brew "tmux"
-brew "watch"
-brew "wget"
-brew "wireshark"
-brew "zig"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-brew "anomalyco/tap/opencode"
-cask "alacritty"
-cask "angry-ip-scanner"
+# Cross platform SQL editor and database management app
+cask "beekeeper-studio"
+# Ghostty-based terminal with vertical tabs and notifications for AI coding agents
+cask "cmux"
+# OpenAI's coding agent that runs in your terminal
 cask "codex"
-cask "dotnet-sdk"
-cask "font-fira-code-nerd-font"
-cask "gcloud-cli"
-cask "kitty"
+# Write, edit, and chat about your code with AI
+cask "cursor"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Free and open-source image editor
+cask "gimp"
+# Desktop client for GitHub repositories
+cask "github"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
+# Customise mouse behavior
+cask "linearmouse"
+# Discover, download, and run local LLMs
+cask "lm-studio"
+# Open-source cross-platform alternative to AirDrop
 cask "localsend"
-cask "mitmproxy"
-cask "ngrok"
-cask "sfm"
-cask "warp"
-cask "wezterm"
-cask "wireshark-app"
-mas "Bandwidth+", id: 490461369
-mas "Keynote", id: 409183694
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "WhatsApp", id: 310633997
-mas "Xcode", id: 497799835
-vscode "adpyke.vscode-sql-formatter"
-vscode "biomejs.biome"
-vscode "bmewburn.vscode-intelephense-client"
-vscode "bradlc.vscode-tailwindcss"
-vscode "dart-code.dart-code"
-vscode "dart-code.flutter"
-vscode "databricks.neon-local-connect"
-vscode "dbaeumer.vscode-eslint"
-vscode "esbenp.prettier-vscode"
-vscode "mechatroner.rainbow-csv"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-dotnettools.csdevkit"
-vscode "ms-dotnettools.csharp"
-vscode "ms-dotnettools.vscode-dotnet-runtime"
-vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
-vscode "ms-python.debugpy"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-python.vscode-python-envs"
-vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode.vscode-typescript-next"
-vscode "redhat.vscode-yaml"
-vscode "rodrigovallades.es7-react-js-snippets"
-vscode "rvest.vs-code-prettier-eslint"
-vscode "skyran.js-jsx-snippets"
-vscode "typescriptteam.native-preview"
+# Open-source firewall to block unknown outgoing connections
+cask "lulu"
+# App to write, plan, collaborate, and get organised
+cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Collaboration platform for API development
+cask "postman"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Music streaming service
+cask "spotify"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# Multimedia player
+cask "vlc"
+# Multiplayer code editor
+cask "zed"
+vscode "anysphere.remote-containers"
+vscode "anysphere.remote-ssh"
+vscode "pkief.material-icon-theme"
+npm "corepack"
